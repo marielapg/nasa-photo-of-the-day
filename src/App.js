@@ -1,13 +1,14 @@
 import React from "react";
-import "./App.css";
+import "./App.css"
+import Astro from "./components/Astro";
+import AstroCard from "./components/AstroCard";
+
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <h1>Planets </h1>
+      <Astro/>
     </div>
   );
 }
